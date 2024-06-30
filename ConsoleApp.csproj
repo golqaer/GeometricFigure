@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GeometricFigure\GeometricFigure.csproj" />
+  </ItemGroup>
+
 </Project>
