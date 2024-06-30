@@ -1,4 +1,5 @@
-﻿using GeometricFigure;
+﻿using ConsoleApp.Data;
+using GeometricFigure;
 using GeometricFigure.Common;
 
 namespace ConsoleApp
@@ -7,11 +8,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Point
-                  a = new Point(0, 0)
-                , b = new Point(5, 2)
-                ;
-            Quadrangle quadrangle = new Rectangle(a, b);
+            Context context = new Context();
         }
     }
 }
